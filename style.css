@@ -59,6 +59,8 @@ body{
 #formalities{
     display: flex;
     justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 20px;
 }
 #formalities > #mycheckBox{
     background-color: rgb(227, 243, 247);
