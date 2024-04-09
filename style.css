@@ -48,12 +48,14 @@ body{
     height: 40px;
     border-radius: 7px;
     background-color: rgb(227, 243, 247);
+    color: grey;
 }
 #box-two{
     border: none;
     height: 40px;
     border-radius: 7px;
     background-color: rgb(227, 243, 247);
+    color: grey;
 }
 
 #formalities{
@@ -61,6 +63,7 @@ body{
     justify-content: space-between;
     padding-top: 7px;
     padding-bottom: 20px;
+    color: grey;
 }
 #formalities > #mycheckBox{
     background-color: rgb(227, 243, 247);
@@ -84,4 +87,7 @@ body{
 }
 #Submit-btn:active{
     background-color: hsl(215, 70%, 75%);
+}
+#new-user{
+    color: grey;
 }
