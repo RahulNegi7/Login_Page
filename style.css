@@ -77,3 +77,9 @@ body{
     background-color: hsl(215, 70%, 50%);
     cursor: pointer;
 }
+#Submit-btn:hover{
+    background-color: hsl(215, 70%, 60%);
+}
+#Submit-btn:active{
+    background-color: hsl(215, 70%, 75%);
+}
