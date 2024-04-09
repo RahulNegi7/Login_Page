@@ -60,9 +60,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
-/* #formalities > #mycheckBox{
+#formalities > #mycheckBox{
     background-color: rgb(227, 243, 247);
-} */
+}
 
 #Submit-btn{
     display: flex;
