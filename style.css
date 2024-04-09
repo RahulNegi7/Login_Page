@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-image: linear-gradient(to right top, #d3af70, #eaa17e, #f1979a, #e695ba, #c79bd6, #aea7e9, #8eb3f5, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
@@ -14,9 +15,7 @@ body{
    display: flex;
    padding: 25px;
    background-color: white;
-   overflow: hidden;
-   
-   
+   overflow: hidden;   
 }   
 
 .Left {
@@ -61,6 +60,20 @@ body{
     display: flex;
     justify-content: space-between;
 }
-#formalities > #mycheckBox{
+/* #formalities > #mycheckBox{
     background-color: rgb(227, 243, 247);
+} */
+
+#Submit-btn{
+    display: flex;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(215, 70%, 50%);
+    cursor: pointer;
 }
