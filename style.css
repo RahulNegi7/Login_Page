@@ -45,28 +45,38 @@ body{
 }
 #box-one{
     border: none;
-    height: 40px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 7px;
     background-color: rgb(227, 243, 247);
     color: grey;
 }
 #box-two{
     border: none;
-    height: 40px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 7px;
     background-color: rgb(227, 243, 247);
     color: grey;
 }
 
 #formalities{
-    display: flex;
-    justify-content: space-between;
+    display:inline-flex;
     padding-top: 7px;
     padding-bottom: 20px;
     color: grey;
 }
-#formalities > #mycheckBox{
-    background-color: rgb(227, 243, 247);
+
+#mycheckBox{ 
+   appearance: none;
+   width: 14px;
+   height: 14px;
+   border-radius: 3px;
+   border: none;
+   background-color: rgb(227, 243, 247);
+   
 }
 
 #Submit-btn{
@@ -90,4 +100,8 @@ body{
 }
 #new-user{
     color: grey;
+}
+#links{
+    color: #3378cc;
+    text-decoration: none;
 }
