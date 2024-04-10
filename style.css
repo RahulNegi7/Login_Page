@@ -21,7 +21,7 @@ body{
 .Left {
     display: flex;
     border-radius: 20px;
-    width: 50%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -31,7 +31,7 @@ body{
     padding-right: 50px;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 90%;
     border-radius: 20px;
     border-color:black;
     overflow: hidden;
@@ -105,4 +105,31 @@ body{
 #links{
     color: #3378cc;
     text-decoration: none;
+}
+
+@media (max-width: 800px ) {
+    .container{
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .Left{
+        width: 100%;
+        
+    }
+    .Right{
+        width: 62%;
+        height: 140%;
+        
+    }
+    .Right{
+        display: flex;
+        padding-left: 15px;
+        flex-direction: column;
+        width: 90%;
+        border-radius: 20px;
+        border-color: black;
+        overflow: hidden;
+        background-color: white;
+    }
 }
